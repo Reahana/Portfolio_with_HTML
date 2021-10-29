@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <title>Registration</title>
+</head>
+<body>
+    <table border="1" width="980" align="center">
+        <tr>
+            <td height="200" width="200">
+                <img src="img/logo.jpg" alt="logo" width="200" height="200">
+            </td>
+            <td></td>
+        </tr>
+        <tr>
+            <td height="50" colspan="2">
+                <table border="1" width="980" height="50"> 
+                    <tr align="center">
+                        <td><a href="index.html">Home</a></td>
+                        <td><a href="about.html">About</a></td>
+                        <td><a href="portfolio.html">Portfolio</a></td>
+                        <td><a href="gallery.html">Gallery</a></td>
+                        <td><a href="contact.html">Contact</a></td>
+                        <td><a href="registration.html">Registration</a></td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <tr>
+            <td height="600"></td>
+            <td valign="top">
+                <h3 align="center">Registration Form</h3>
+                <hr/>
+                <table>
+                    <tr>
+                        <th align="left" >First Name:</th>
+                        <td><input type="text" name="first_name"></td>
+                    </tr>
+                    <tr>
+                        <th align="left" >Last Name:</th>
+                        <td><input type="text" name="last_name"></td>
+                    </tr>
+                    <tr>
+                        <th align="left" >Email Address:</th>
+                        <td><input type="email" name="email"></td>
+                    </tr>
+                    <tr>
+                        <th align="left" >Password:</th>
+                        <td><input type="password" name="password"></td>
+                    </tr>
+                    <tr>
+                        <th align="left" >Phone Number:</th>
+                        <td><input type="number" name="number"></td>
+                    </tr>
+                    <tr>
+                        <th align="left" >Date of Birth:</th>
+                        <td><input type="date" name="date_of_birth"></td>
+                    </tr>
+                    <tr>
+                        <th align="left" >Address:</th>
+                        <td><textarea name="address"  cols="30" rows="10"></textarea></td>
+                    </tr>
+                    <tr>
+                        <th align="left" >District:</th>
+                        <td>
+                            <select name="district_name" >
+                                <option disabled selected>---Select District---</option>
+                                <optgroup label="Dhaka">
+                                    <option value="Dhaka">Dhaka</option>
+                                    <option value="Gazipur">Gazipur</option>
+                                    <option value="Narsingdi">Narsingdi</option>
+                                    <option value="Manikganj">Manikganj</option>
+                                    <option value="Sherpur">Sherpur</option>
+                                    <option value="Rajbari">Rajbari </option>
+                                </optgroup>
+                                <optgroup label="Sylhet">
+                                    <option value="Sylhet">Sylhet</option>
+                                    <option value="Habiganj">Habiganj</option>
+                                    <option value="Moulvibazar">Moulvibazar</option>
+                                    <option value="Sunamganj">Sunamganj</option>
+                                </optgroup>
+                                <optgroup label="Barisal">
+                                    <option value="Barisal">Barisal</option>
+                                </optgroup>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th align="left" >Country Name:</th>
+                        <td><input type="text" list="country" name="country_name"></td>
+                    </tr>
+                    <tr>
+                        <th align="left" >Gender:</th>
+                        <td>
+                            <label><input type="radio" name="gender" value="Male">Male </label>
+                            <label><input type="radio" name="gender" value="Female">Female </label>
+                            <label><input type="radio" name="gender" value="Other">Other </label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th align="left" >Course Name:</th>
+                        <td>
+                            <label><input type="checkbox" name="course" value="HTML">HTML</label>
+                            <label><input type="checkbox" name="course" value="CSS">CSS</label>
+                            <label><input type="checkbox" name="course" value="JavaScript">JavaScript</label>
+                            <label><input type="checkbox" name="course" value="PHP">PHP</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th align="left" >Image:</th>
+                        <td><input type="file"  name="image" accept="image/*"></td>
+                    </tr>
+                    <tr>
+                        <th align="left" ></th>
+                        <td></td>
+                        <td></td>
+                        <td><input type="submit"  name="btn" value="Registration"></td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <tr>
+            <td height="40" colspan="2">
+                <p align="center"><b> Design & Developed by Amanda Reahana Gomes</b></p>
+            </td>
+        </tr>
+    </table>
+    <datalist id="country">
+        <option value="Bangladesh"/>
+        <option value="America"/>
+        <option value="India"/>
+        <option value="Canada"/>
+        <option value="Bhutan"/>
+    </datalist>
+</body>
+</html>
